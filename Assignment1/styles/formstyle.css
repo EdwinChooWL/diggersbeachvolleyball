@@ -1,0 +1,201 @@
+@charset "utf-8";
+/*Background image*/
+body {
+	background-image: url(../images/sand.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+/*Removing margin and padding from body*/
+html, body{
+	margin: 0;
+	padding: 0;
+}
+
+/*Formatting of main boxes*/
+#totalwrapper {
+	margin: 0 auto;
+	margin-top: 0.2vh;
+	width: 80vw;
+	min-width: 35em;
+	max-width: 61.2em;
+}
+
+#banner {
+	font-family: 'Lobster', cursive;
+	font-size: 70px;
+	color: #B08000;
+	padding: 20px;
+	height: auto;
+	background: url(../images/beachNet.jpg) right;
+}
+
+a, a:visited {
+	color: #B08000;
+	text-decoration: none;
+}
+
+#navigation {
+	height: 30px;
+	border-spacing: 0;
+	text-align: center;
+}
+
+#contentwrapper {
+	overflow: auto;
+	background-color: rgba(234,234,234,0.9);
+	padding: 5px;
+}
+
+#copyright {
+	background-color: rgba(30,30,30,0.95);
+	padding: 5px;
+	margin: 0 0 0.2vh 0;
+	text-align: center;
+	font-size: 10px;
+	font-weight: bold;
+	color: white;
+}
+
+/*Navigation bar design*/
+.navigationcontent {
+	overflow: hidden;
+	width: 20%;
+	background-color: rgba(102,204,255,0.9);
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: normal;
+	font-size: 15px;
+}
+
+.navigationcontent a, .navigationcontent a:visited {
+	margin: -10em;
+	padding: 10em;
+	text-decoration: none;
+	color: #FFF;
+}
+
+.navigationcontent a:hover {
+	margin: -10em;
+	padding: 10em;
+	text-decoration: none;
+	font-weight: bold;
+	background-color: rgba(0,0,255,0.3);
+}
+
+.verticaldivider {
+	width: 1px;
+	background-color: #9FF;
+}
+
+/*Content headers design*/
+#contentbox {
+	margin: 0 5% 0 5%;
+}
+
+#contentbox h1 {
+	padding: 0;
+	margin: 20px 0 5px 0;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bold;
+	font-size: 1.6em;
+	color: #1B1B1B;
+	text-transform: uppercase;
+}
+
+#contentbox h2 {
+	margin: 20px 0 5px 0;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bold;
+	font-size: 1em;
+	color: #333;
+	text-transform: uppercase;
+}
+
+/*CSS for sign up form*/
+label, legend {
+	margin: 0;
+	margin-right: 5%;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 15px;
+	color: #333;
+	line-height: 300%;
+}
+
+.playingguidelines {
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 13px;
+	color: #333;
+	width: 70%;
+}
+
+input[type="text"] {
+	border-radius: 7px;
+	border: 0;
+	background-color: rgba(255,255,255,1);
+	padding: 8px;
+	padding-left: 10px;
+	font-size: 15px;
+	width: 95%;
+}
+
+label[for="agreement"] {
+	margin-left: 0;
+}
+
+input[type="checkbox"] {
+	margin-right: 0;
+}
+
+select {
+	border-radius: 7px;
+	border: 0;
+	background-color: rgba(255,255,255,1);
+	padding: 0;
+	padding-left: 5px;
+	font-size: 15px;
+	width: 8em;
+	height: 2.2em;
+}
+
+option {
+	font-size: 12px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+#submitbox {
+	border: 0;
+	margin-top: 5px;
+	margin-right: 10px;
+	border-radius: 7px;
+	background-color: #009;
+	display: inline-block;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 15px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	width: 8em;
+	height: 2.2em;
+}
+
+#homebox {
+	margin: 0;
+	border: 0;
+	padding: 0;
+	margin-top: 5px;
+	padding-top: 4px;
+	border-radius: 7px;
+	vertical-align: top;
+	text-align: center;
+	display: inline-block;
+	background-color: #009;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 15px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	width: 8em;
+	height: 1.9em;
+}
+
+a #homebox:hover {
+	cursor: default;
+}

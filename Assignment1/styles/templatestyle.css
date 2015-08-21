@@ -1,0 +1,232 @@
+@charset "utf-8";
+/*Background image*/
+body {
+	background-image: url(../images/sand.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+/*Removing margin and padding from body*/
+html, body{
+	margin: 0;
+	padding: 0;
+}
+
+/*Formatting of main boxes*/
+#totalwrapper {
+	margin: 0 auto;
+	margin-top: 0.2vh;
+	width: 80vw;
+	min-width: 35em;
+	max-width: 61.2em;
+}
+
+#banner {
+	font-family: 'Lobster', cursive;
+	font-size: 70px;
+	color: #B08000;
+	padding: 20px;
+	height: auto;
+	background: url(../images/beachNet.jpg) right;
+}
+
+a, a:visited {
+	color: #B08000;
+	text-decoration: none;
+}
+
+
+#navigation {
+	height: 30px;
+	border-spacing: 0;
+	text-align: center;
+}
+
+#contentwrapper {
+	overflow: auto;
+	background-color: rgba(234,234,234,0.9);
+	padding: 5px;
+}
+
+#copyright {
+	background-color: rgba(30,30,30,0.95);
+	padding: 5px;
+	margin: 0 0 0.2vh 0;
+	text-align: center;
+	font-size: 10px;
+	font-weight: bold;
+	color: white;
+}
+
+/*Navigation bar design*/
+.navigationcontent {
+	overflow: hidden;
+	width: 20%;
+	background-color: rgba(102,204,255,0.9);
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: normal;
+	font-size: 15px;
+}
+
+.navigationcontent a, .navigationcontent a:visited {
+	margin: -10em;
+	padding: 10em;
+	text-decoration: none;
+	color: #FFF;
+}
+
+.navigationcontent a:hover {
+	margin: -10em;
+	padding: 10em;
+	text-decoration: none;
+	font-weight: bold;
+	background-color: rgba(0,0,255,0.3);
+}
+
+.verticaldivider {
+	width: 1px;
+	background-color: #9FF;
+}
+
+/*Main content box design*/
+#contentbox{
+	display: inline-block;
+	
+	margin: 5px;
+	padding: 2%;
+	width: 64%;
+	overflow-x: auto;
+}
+
+/*Sidebar design*/
+#sidebar {
+	float: right;
+	display: inline-block;
+	margin: 5px;
+	padding: 0;
+	width: 27%;
+	
+}
+
+/*Content in main content box*/
+#contentbox h1 {
+	padding: 0;
+	margin: 0 0 5px 0;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bold;
+	font-size: 1.6em;
+	color: #1B1B1B;
+	text-transform: uppercase;
+}
+
+#contentbox h2 {
+	margin: 20px 0 10px 0;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bold;
+	font-size: 1em;
+	color: #333;
+	text-transform: uppercase;
+}
+
+#contentbox p {
+	margin: 0;
+	margin-bottom: 5px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 15px;
+	color: #666;
+	line-height: 35px;
+}
+
+#contentbox p a, #contentbox p a:visited {
+	font-weight: bold;
+	color: #06F;
+	text-decoration: none;
+}
+
+.bodyimageright {
+	float: right;
+	border-radius: 15px;
+	margin: 0 10px 10px 10px;
+}
+.bodyimage {
+	margin: 10px 5%;
+	width: 90%;
+	height: auto;
+	border-radius: 25px;
+}
+
+/*Sign up box in sidebar design*/
+.sidebarbutton {
+	background-color: rgba(255,255,255,1);
+	border-radius: 7px;
+	padding: 10px 0 10px 0;
+	margin: 5px 0;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.sidebarbutton a:link, .sidebarbutton a:visited {
+	color: #000;
+	text-decoration: none;
+}
+
+/*Announcements box in sidebar design*/
+#announcementsbox {
+	margin: 10px 0 0 0;
+	padding: 0 10px 0 10px;
+}
+
+#announcementsbox h2 {
+	margin: 0;
+	padding: 5px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bold;
+	font-size: 11px;
+	color: #333;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+#announcementsbox p {
+	margin: 0;
+	padding: 5px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 13px;
+	color: #666;
+}
+
+.announcementsdivider {
+	border: 1px solid #CCC;
+}
+
+/*Competition ladder in sidebar design*/
+#sidebarladder {
+	margin: 10px 0 0 10%;
+	padding: 0 10px 0 10px;
+}
+
+#sidebarladder th {
+	font-size: 11px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-weight: bold;
+	text-align: center;
+}
+
+#sidebarladder td {
+	font-size: 11px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	text-align: center;
+	width: 60%;
+}
+
+/*CSS for websites with tables*/
+#competitionladder {
+	margin: 0;
+}
+
+.excel5, .excel6 {
+	border: 1px solid #000;
+}
